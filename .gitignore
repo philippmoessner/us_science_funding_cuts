@@ -1,0 +1,6 @@
+data_raw/nih/
+data_raw/nsf/
+data_raw/nih_project_population.csv
+data_raw/nsf_project_population.csv
+
+project_population_at_risk.pkl
