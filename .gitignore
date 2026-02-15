@@ -1,3 +1,5 @@
+.DS_Store/
+
 data_raw/nih/
 data_raw/nsf/
 data_raw/nih_project_population.csv
