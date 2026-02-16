@@ -5,4 +5,10 @@ data_raw/nsf/
 data_raw/nih_project_population.csv
 data_raw/nsf_project_population.csv
 
-project_population_at_risk.pkl
+project_population_at_risk.parquet
+topics.parquet
+data_pre_enriched.parquet
+
+PinyinGender.txt
+
+openalex-topic-mapping.csv
