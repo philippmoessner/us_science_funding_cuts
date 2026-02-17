@@ -1,14 +1,15 @@
 .DS_Store/
 
-data_raw/nih/
-data_raw/nsf/
-data_raw/nih_project_population.csv
-data_raw/nsf_project_population.csv
+data/data_raw/nih/
+data/data_raw/nsf/
+data/data_raw/nih_project_population.csv
+data/data_raw/nsf_project_population.csv
 
-project_population_at_risk.parquet
-topics.parquet
-data_pre_enriched.parquet
+data/project_population_at_risk.parquet
+data/topics.parquet
+data/data_enriched.parquet
 
-PinyinGender.txt
-
-openalex-topic-mapping.csv
+data/for_enrichment/openalex-topic-mapping.csv
+data/for_enrichment/PinyinGender.txt
+data/for_enrichment/v2.2-2026-01-29-ror-data.csv
+data/for_enrichment/IPEDS_inst_charact_hd2024.csv
