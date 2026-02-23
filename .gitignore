@@ -8,6 +8,7 @@ data/data_raw/nsf_project_population.csv
 data/project_population_at_risk.parquet
 data/topics.parquet
 data/data_enriched.parquet
+data/data_final.parquet
 
 data/for_enrichment/openalex-topic-mapping.csv
 data/for_enrichment/PinyinGender.txt
