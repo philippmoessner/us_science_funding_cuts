@@ -14,3 +14,6 @@ data/for_enrichment/openalex-topic-mapping.csv
 data/for_enrichment/PinyinGender.txt
 data/for_enrichment/v2.2-2026-01-29-ror-data.csv
 data/for_enrichment/IPEDS_inst_charact_hd2024.csv
+
+data/VOSviewer-network.json
+data/VOSviewer-network_with_weights.json
