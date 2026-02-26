@@ -17,3 +17,9 @@ data/for_enrichment/IPEDS_inst_charact_hd2024.csv
 
 data/VOSviewer-network.json
 data/VOSviewer-network_with_weights.json
+
+data/content_token_lists.parquet
+data/content_token_lists_only_alpha.parquet
+data/banned_words.csv
+
+data/nlp/
