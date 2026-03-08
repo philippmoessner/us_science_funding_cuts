@@ -1,25 +1,31 @@
-.DS_Store/
-
+# raw data files
 data/data_raw/nih/
 data/data_raw/nsf/
 data/data_raw/nih_project_population.csv
 data/data_raw/nsf_project_population.csv
 
+# intermediate and final data exports
 data/project_population_at_risk.parquet
 data/topics.parquet
 data/data_enriched.parquet
 data/data_final.parquet
 
+# data for enrichment
 data/for_enrichment/openalex-topic-mapping.csv
 data/for_enrichment/PinyinGender.txt
 data/for_enrichment/v2.2-2026-01-29-ror-data.csv
 data/for_enrichment/IPEDS_inst_charact_hd2024.csv
 
-data/VOSviewer-network.json
-data/VOSviewer-network_with_weights.json
-
+# nlp analysis related data
 data/content_token_lists.parquet
 data/content_token_lists_only_alpha.parquet
 data/banned_words.csv
-
 data/nlp/
+
+# data export for network analysis tools
+data/VOSviewer-network.json
+data/VOSviewer-network_with_weights.json
+data/openalex_mapper.csv
+
+# MacOS
+.DS_Store/
