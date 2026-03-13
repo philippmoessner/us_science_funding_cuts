@@ -24,7 +24,6 @@ data/nlp/
 
 # data export for network analysis tools
 data/VOSviewer-network.json
-data/VOSviewer-network_with_weights.json
 data/openalex_mapper.csv
 
 # MacOS
