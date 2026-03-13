@@ -24,3 +24,12 @@ when Trump came into office. We only consider project fundings by the biggest fu
 foundational research – [NIH](https://reporter.nih.gov/exporter) and [NSF](https://www.nsf.gov/awardsearch/download-awards). We complement this by the report of affected projects on [grant-whitness.us](https://grant-witness.us/).
 <br>
 The final enriched dataset (according to the procedure in section 2 and 3 of the `notebook.ipynb`) of NIH and NSF projects since 2014 can be downloaded [here](https://csh.ac.at/).
+
+### Results and Visualizations
+Currently, the results of the analysis and answers to the specific questions (a) and (b) are presented in a detailed manner in section "4. Analyis" of the `notebook.ipynb` file. Additionally, there are two interactive visualizations available which show the effects of the science funding cuts on the scientific landscape: 
+1. [VOS-Viewer Science Map](https://app.vosviewer.com/?json=https%3A%2F%2Fraw.githubusercontent.com%2Fphilippmoessner%2Fus_science_funding_cuts%2Frefs%2Fheads%2Fmain%2Fdata%2FVOSviewer-network_with_weights.json) <br>
+Our VOS-Viewer visualization represents different scientific topics as bubbles. Each bubble aggregates information of all corresponding grants / projects and is sized by either the proportion of projects that was cut or the proportion of funding that was lost in this topic (can be toggled via the sidebar). You can view it [here](https://app.vosviewer.com/?json=https%3A%2F%2Fraw.githubusercontent.com%2Fphilippmoessner%2Fus_science_funding_cuts%2Frefs%2Fheads%2Fmain%2Fdata%2FVOSviewer-network_with_weights.json
+).<br> [VOS-Viewer](https://github.com/neesjanvaneck/VOSviewer-Online) is an open-source tool for network visualization by Leiden University. Our visualization builds on the base map of OpenAlex topics published [here](https://app.vosviewer.com/?json=https%3A%2F%2Fapp.vosviewer.com%2Fresearchlandscape%2Fdata%2Fopenalex_2023nov.json&url_preview_panel=400).
+2. OpenAlex Mapper Science Map <br>
+The second visualization displays all grants / projects of the "project population at risk" individually and sizes + colors them by the proportion of budget lost. 
+This visualization is available as the `science_map.html` file in this repository and builds on the [OpenAlex Mapper](https://huggingface.co/spaces/MaxNoichl/openalex_mapper) by Maximilian Noichl.
