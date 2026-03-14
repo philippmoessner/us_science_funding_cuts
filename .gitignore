@@ -28,3 +28,4 @@ data/openalex_mapper.csv
 
 # MacOS
 .DS_Store/
+data/.DS_Store

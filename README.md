@@ -1,4 +1,4 @@
-# Analyzing the US Science Funding Cuts Under the Trump Administration
+# Analyzing US Science Funding Cuts Under the Trump Administration
 ### Motivation and Research Questions
 Since Donald Trump has come into office for his second term as President of the United States of
 America (on January 20th, 2025), US-science is experiencing unprecedented funding cuts. These cuts
@@ -23,7 +23,7 @@ includes all projects that were active or inactive but receiving money (projects
 when Trump came into office. We only consider project fundings by the biggest funding agencies for
 foundational research – [NIH](https://reporter.nih.gov/exporter) and [NSF](https://www.nsf.gov/awardsearch/download-awards). We complement this by the report of affected projects on [grant-whitness.us](https://grant-witness.us/).
 <br>
-The final enriched dataset (according to the procedure in section 2 and 3 of the `notebook.ipynb`) of NIH and NSF projects since 2014 can be downloaded [here](https://csh.ac.at/).
+The final enriched dataset (according to the procedure in section 2 and 3 of the `notebook.ipynb`) of NIH and NSF projects since 2014 can be downloaded [here](https://drive.google.com/file/d/19EnZfChrkc0HyIi576zpFVJF3-7JuHvK/view?usp=sharing).
 
 ### Results and Visualizations
 Currently, the results of the analysis and answers to the specific questions (a) and (b) are presented in a detailed manner in section "4. Analyis" of the `notebook.ipynb` file. Additionally, there are two interactive visualizations available which show the effects of the science funding cuts on the scientific landscape: 
