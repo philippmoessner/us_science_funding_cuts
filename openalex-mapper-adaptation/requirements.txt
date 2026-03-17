@@ -1,0 +1,22 @@
+datamapplot @ git+https://github.com/MNoichl/datamapplot.git@backup_early_november
+spaces
+uvicorn
+fastapi
+numpy
+requests
+pyalex
+compress-pickle
+transformers
+adapters
+torch
+tqdm
+pyarrow
+numba==0.58.1
+umap-learn==0.5.7
+pynndescent==0.5.12
+sentence-transformers==3.3.1
+dask[complete]==2024.4.1
+datashader>=0.16
+opinionated
+IPython
+scikit-learn
