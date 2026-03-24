@@ -15,10 +15,10 @@ The final dataset after merging NIH, NSF, grant-whitness.us data and enriching t
 | **id** | `data_source` | The origin of the project data (e.g., NIH or NSF). |
 | **status** | `reinstatement_indicator` | Indicates how a previously terminated project was found to having been reinstated later. |
 | **status** | `status` | The funding status of the project. |
-| **context** | `ror_match_name` | Name of the institution as identified in the Research Organization Registry (ROR). |
-| **context** | `ipeds_edu_type` | Classification of the educational institution according to IPEDS standards. |
-| **context** | `ipeds_edu_size` | The size category of the educational institution based on student population. |
-| **context** | `ror_inst_type` | Category of organization type assigned by the ROR registry. |
+| **context** | `ror_match_name` | Name of the institution as identified in the [Research Organization Registry (ROR)](https://ror.org/) (only used for enrichment / preprocessing, not analysis). |
+| **context** | `ipeds_edu_type` | Classification of the educational institution according to [IPEDS](https://nces.ed.gov/ipeds) standards. |
+| **context** | `ipeds_edu_size` | The [IPEDS](https://nces.ed.gov/ipeds) size category of the educational institution based on student population. |
+| **context** | `ror_inst_type` | Category of [organization type](https://ror.readme.io/docs/ror-data-structure#types) assigned by the ROR registry (only used for enrichment, not analysis -> use inst_type here). |
 | **context** | `inst_type` | General / derived (from ROR) unique classification of the institution type. |
 | **context** | `party_affiliation` | Political party affiliation associated with the project's state. |
 | **context** | `gender_inferred` | Inferred gender of the Principal Investigator (PI) based on their first name. |
@@ -43,11 +43,11 @@ The final dataset after merging NIH, NSF, grant-whitness.us data and enriching t
 | **content** | `banned_tokens_proportion` | Ratio of the number of matched banned words to the total number of cleaned tokens. |
 | **content** | `title` | The original title of the research grant or project. |
 | **content** | `abstract` | The original abstract text describing the research goals and methodology. |
-| **sci_class** | `domain_id` | Unique identifier for the OpenAlex scientific domain of the research. |
-| **sci_class** | `field_name` | The name of the OpenAlex scientific field. |
-| **sci_class** | `field_id` | Unique identifier for the OpenAlex scientific field. |
-| **sci_class** | `subfield_name` | The name of the OpenAlex scientific subfield. |
-| **sci_class** | `subfield_id` | Unique identifier for the OpenAlex scientific subfield. |
-| **sci_class** | `topic_id` | Unique identifier for the OpenAlex research topic. |
-| **sci_class** | `domain_name` | Name of the OpenAlex scientific domain. |
-| **sci_class** | `topic_name` | Name of the OpenAlex research topic classification. |
+| **sci_class** | `domain_id` | Unique identifier for the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) scientific domain of the research. |
+| **sci_class** | `field_name` | The name of the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) scientific field. |
+| **sci_class** | `field_id` | Unique identifier for the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) scientific field. |
+| **sci_class** | `subfield_name` | The name of the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) scientific subfield. |
+| **sci_class** | `subfield_id` | Unique identifier for the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) scientific subfield. |
+| **sci_class** | `topic_id` | Unique identifier for the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) research topic. |
+| **sci_class** | `domain_name` | Name of the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) scientific domain. |
+| **sci_class** | `topic_name` | Name of the [OpenAlex](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) research topic classification. |
