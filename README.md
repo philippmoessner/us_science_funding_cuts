@@ -21,7 +21,7 @@ projects?
 To analyze the effects and procedure of these cuts, we must define a “project population at risk”. This
 includes all projects that were active or inactive but receiving money (projects in their closeout phase)
 when Trump came into office. We only consider project fundings by the biggest funding agencies for
-foundational research – [NIH](https://reporter.nih.gov/exporter) and [NSF](https://www.nsf.gov/awardsearch/download-awards). We complement this by the report of affected projects on [grant-whitness.us](https://grant-witness.us/).
+foundational research – [NIH](https://reporter.nih.gov/exporter) and [NSF](https://www.nsf.gov/awardsearch/download-awards). We complement this by the report of affected projects on [grant-witness.us](https://grant-witness.us/).
 <br>
 The final enriched dataset (according to the procedure in section 2 and 3 of the `notebook.ipynb`) of NIH and NSF projects since 2014 can be downloaded [here](https://drive.google.com/file/d/19EnZfChrkc0HyIi576zpFVJF3-7JuHvK/view?usp=sharing).
 

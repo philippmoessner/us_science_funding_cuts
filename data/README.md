@@ -7,7 +7,7 @@ Additionally, it contains a data dictionary `NIH_NSF_Data_Dictionary.xlsx` descr
 This folder contains all data necessary to generate the final enriched dataset. For further information see corresponding section "3.2 Enriching the dataset" in `notebook.ipynb`.
 
 ## Final Dataset
-The final dataset after merging NIH, NSF, grant-whitness.us data and enriching this merged dataset by crucial context information can be downloaded [here](https://drive.google.com/file/d/19EnZfChrkc0HyIi576zpFVJF3-7JuHvK/view?usp=sharing). This is a MultiIndex pandas dataframe with the following columns: 
+The final dataset after merging NIH, NSF, grant-witness.us data and enriching this merged dataset by crucial context information can be downloaded [here](https://drive.google.com/file/d/19EnZfChrkc0HyIi576zpFVJF3-7JuHvK/view?usp=sharing). This is a MultiIndex pandas dataframe with the following columns: 
 
 | Category | Variable | Description |
 | :--- | :--- | :--- |
