@@ -1,4 +1,5 @@
 # Analyzing US Science Funding Cuts Under the Trump Administration
+This project was conducted in cooperation with the [Complexity Science Hub Vienna](https://csh.ac.at/) and was supervised by Mirta Galesic.
 ### Motivation and Research Questions
 Since Donald Trump has come into office for his second term as President of the United States of
 America (on January 20th, 2025), US-science is experiencing unprecedented funding cuts. These cuts
